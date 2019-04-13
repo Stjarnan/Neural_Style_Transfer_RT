@@ -6,6 +6,22 @@ Neural style transfer in real time (Or using photos if you prefer that)
 
 The only prerequisite is for you to have Python installed.
 
+### Get Started
+
+#### Real Time
+
+Run the following in your terminal:
+```
+python nst_RT.py -m models
+```
+
+#### For Images
+
+Run the following in your terminal:
+```
+python nst.py -i images/view.jpg -m models/pathtomodelyouwanttouse
+```
+
 ## Built With
 
 * Python
